@@ -1,0 +1,74 @@
+﻿<Window x:Class="BYSEC_RVS.AddObject"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BYSEC_RVS"
+         xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="AddObject" Height="608" Width="801" WindowStyle="None">
+
+    <Grid Background="#FF4B4646" OpacityMask="#FFF7F6F6" >
+
+        <TextBox x:Name="ip_t" FontSize="16" Margin="170,157,393,397" FontFamily="Segoe UI Semibold" />
+        <TextBox x:Name="gate_t" FontSize="16" Margin="170,216,393,338" FontFamily="Segoe UI Semibold" />
+        <TextBox x:Name="port_t" FontSize="16" Margin="273,267,393,287" FontFamily="Segoe UI Semibold" />
+        <TextBox x:Name="radius_t" FontSize="16" Margin="273,326,393,228" FontFamily="Segoe UI Semibold" />
+        <TextBox x:Name="netmask_t" FontSize="16" Margin="165,383,393,171" FontFamily="Segoe UI Semibold" />
+        <Label x:Name="local_cn" Content =" LOCAL connection   " Margin="554,236,10,310" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Label x:Name="onvif_cn" Content =" ONVIF connection   " Margin="554,149,29,397" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" RenderTransformOrigin="0.5,0.5" >
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.547"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.74"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="geo_t" FontSize="16" Margin="273,103,393,451" FontFamily="Segoe UI Semibold" />
+        <Label x:Name="Radius_detection" Content =" Radius detection :   " Margin="10,321,558,225" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" FontWeight="Normal" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Label x:Name="geo_location_radar" Content =" Geo location(lng,ltd) :   " Margin="10,95,520,451" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" FontWeight="Bold" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Label x:Name="netmask" Content =" Netmask :   " Margin="10,375,628,171" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Label x:Name="port_1" Content =" Port :   " Margin="10,267,628,279" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Label x:Name="gate" Content =" Gateway :   " Margin="10,208,628,338" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic" ScrollViewer.HorizontalScrollBarVisibility="Auto" RenderTransformOrigin="0.594,2.352" />
+        <Label x:Name="IP_adreess" Content =" IP  adress :   " Margin="10,149,628,397" Foreground="White" FontFamily="Shruti" FontSize="24" FontStyle="Italic"  ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Border BorderBrush="#FF1DCAD3" BorderThickness="3" CornerRadius="20" Margin="0,0,393,0">
+            <Label x:Name="label1" Content="Radar-NR" Foreground="White" Margin="0,0,0,506" Background="#FF292121" FontFamily="Stencil Std" FontSize="48" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" RenderTransformOrigin="0.388,0.466"/>
+
+        </Border>
+        <Button x:Name="Onvif_connect" BorderBrush="Black" BorderThickness="4" FontFamily="Shruti" FontSize="32" Margin="433,92,247,398" Foreground="White" FontWeight="Bold" RenderTransformOrigin="0.086,0.529" Click="Onvif_connect_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.251"/>
+                    <TranslateTransform X="-0.014" Y="-0.23"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush  Stretch="Uniform"/>
+            </Button.Background>
+            <Border BorderBrush="Black" BorderThickness="1" Height="100" Width="100"/>
+        </Button>
+        <RadioButton x:Name="cameras" Content="Add camera object to map" HorizontalAlignment="Center" Margin="410,434,10,0" VerticalAlignment="Top" Height="56" Width="373" RenderTransformOrigin="0.594,0.174" Background="Red" Foreground="#FF00F9CC" FontFamily="Shruti" FontSize="29.333" FontWeight="Bold" BorderBrush="Red" BorderThickness="1,6"/>
+        <Border BorderBrush="#FF1DCAD3" BorderThickness="3" CornerRadius="20" Margin="405,-10,10,10" RenderTransformOrigin="0.515,0.387">
+            <Label x:Name="label" Content="Camera" Foreground="White" Margin="7,0,7,506" Background="#FF292121" FontFamily="Stencil Std" FontSize="48" HorizontalContentAlignment="Right"  HorizontalAlignment="Right" Width="353"/>
+        </Border>
+
+        <Image x:Name="image" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="110"  RenderTransformOrigin="-0.7,-0.72" Margin="10,0,0,0" />
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="72" Margin="433,0,0,0" VerticalAlignment="Top" Width="116"  RenderTransformOrigin="1.2,-0.3">
+            <Image.OpacityMask>
+                <ImageBrush/>
+            </Image.OpacityMask>
+        </Image>
+        <RadioButton x:Name="radioButton" Content="Add radar object to map" HorizontalAlignment="Center" Margin="10,434,393,0" VerticalAlignment="Top" Height="56" Width="390" RenderTransformOrigin="0.594,0.174" Background="Red" Foreground="#FF00F9CC" FontFamily="Shruti" FontSize="29.333" FontWeight="Bold" BorderBrush="Red" BorderThickness="1,6"/>
+        <Button Content=""  Margin="433,208,244,292" FontFamily="Shruti" FontSize="32" OpacityMask="Black" BorderBrush="Black" BorderThickness="6" RenderTransformOrigin="1.756,0.58" >
+            <Button.Background>
+                <ImageBrush  Stretch="UniformToFill" TileMode="Tile"/>
+            </Button.Background>
+
+        </Button>
+        <Button  x:Name="Save_radar_connect" BorderThickness="4" Content="Save and draw" Background="#FF63B0B8" FontFamily="Shruti" FontSize="32" Margin="24,522,411,22" Foreground="White" FontWeight="Bold"></Button>
+    </Grid>
+</Window>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe">
+   <Modules>
+    <Module Name="bysec_rvs.exe">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Так как сборка 'BYSEC_RVS.exe' содержит файл ResX-ресурса, пометьте его атрибутом NeutralResourcesLanguage, указав язык ресурсов внутри сборки. Это может ускорить поиск ресурса при первом извлечении.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="BYSEC_RVS">
+       <Types>
+        <Type Name="AddObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Onvif_connect_Click(System.Object,System.Windows.RoutedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="AddObject.xaml.cs" Line="49">Метод 'AddObject.Onvif_connect_Click(object, RoutedEventArgs)' передает строку-литерал, как параметр "caption" при вызове 'MessageBox.Show(string, string, MessageBoxButton, MessageBoxImage)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Your request was not fulfilled !!!".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConnectRadar" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="114">Метод 'ConnectRadar.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "HeartTime &gt;0 &amp;&amp;HeartTime&lt;60".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="108">Метод 'ConnectRadar.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Please select alarm radar)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="124">Метод 'ConnectRadar.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set failure)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="120">Метод 'ConnectRadar.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set successfully".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="143">Метод 'ConnectRadar.button2_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Please select alarm radar)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="165">Метод 'ConnectRadar.button2_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set successfully".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="185">Метод 'ConnectRadar.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "HeartTime &gt;0 &amp;&amp;HeartTime&lt;60".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="178">Метод 'ConnectRadar.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Please select alarm radar)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="195">Метод 'ConnectRadar.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set failure)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="191">Метод 'ConnectRadar.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set successfully".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonConnect_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="302">Метод 'ConnectRadar.buttonConnect_Click(object, EventArgs)' передает строку-литерал, как параметр "caption" при вызове 'MessageBox.Show(string, string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar ready to using!".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="302">Метод 'ConnectRadar.buttonConnect_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string, string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Succes!".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="297">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "192.168.61.123".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="737">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Algorithm".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="712">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Buzzer".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="668">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Clear targets".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="258">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Connect".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="794">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "ConnectRadar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="611">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Detects cordinates".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="781">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Dev addr".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="245">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Disconnect".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="703">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "FPGA".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="764">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Firmware".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="746">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Heart".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="289">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Ip :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="223">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Login :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="189">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Manual connect".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="213">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Password :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="471">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Point A    X".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="462">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Point B    X".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="453">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Point C    X".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="444">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Point D    X".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="279">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Port :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="329">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar filter coordinate".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="657">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar info".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="492">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar params set".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="341">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Set".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="408">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Y".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="417">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Y".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="426">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Y".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="435">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Y".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="503">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "change ip".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="528">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "gateway".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="581">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "heart(1-60)：".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="562">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "ip".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="572">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "netmask".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="516">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "set".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.DataGridViewColumn.set_HeaderText(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="140">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'DataGridViewColumn.HeaderText.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "ID".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="147">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'DataGridViewColumn.HeaderText.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "IP".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="166">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'DataGridViewColumn.HeaderText.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Online".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="153">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'DataGridViewColumn.HeaderText.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Port".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.Designer.cs" Line="159">Метод 'ConnectRadar.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'DataGridViewColumn.HeaderText.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Type".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#select()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="245">Метод 'ConnectRadar.select()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "0x".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="270">Метод 'ConnectRadar.select()' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Query failure)".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.TextBoxBase.AppendText(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="ConnectRadar.cs" Line="255">Метод 'ConnectRadar.select()' передает строку-литерал, как параметр "text" при вызове 'TextBoxBase.AppendText(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: " , ".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Logining" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Не ликвидировать объекты несколько раз" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.cs" Line="63">Объект "'this'" можно удалять более одного раза в методе 'Logining.button1_Click(object, EventArgs)'. Чтобы избежать исключения System.ObjectDisposedException, следует вызывать метод "Dispose" для объекта только один раз.: Lines: 63, 67, 80, 84</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="96">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Auto-login".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="51">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Login".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="153">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Logining".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="131">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Open RVS".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="121">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Password :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="83">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Remember".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Logining.Designer.cs" Line="110">Метод 'Logining.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Username :".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button_Copy11_Click(System.Object,System.Windows.RoutedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="MainWindow.xaml.cs" Line="95">Метод 'MainWindow.button_Copy11_Click(object, RoutedEventArgs)' передает строку-литерал, как параметр "caption" при вызове 'MessageBox.Show(string, string, MessageBoxButton, MessageBoxImage)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "ONVIF".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="myObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="377">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Add Object".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="285">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Add camera object to map".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="158">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Add radar object to map".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="354">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Camera".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="203">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Gateway : ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="225">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Geo Location(Lng,ltd) :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="214">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "IP adress :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="299">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Local device".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="170">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Netmask :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="311">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Onvif protocol".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="192">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Port :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="247">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar-NR".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="181">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radius  detection :".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="myObject.Designer.cs" Line="102">Метод 'myObject.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Save and draw".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Radars" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-02-22 01:02:44Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS" File="Radars.Designer.cs" Line="42">Метод 'Radars.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Radar connection".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Помечайте сборки атрибутом NeutralResourcesLanguageAttribute</Name>
+   <Description>Атрибут NeutralResourcesLanguage оповещает ResourceManager о языке, используемом для объявления в сборке ресурсов, нейтральных по языку и региональным параметрам. При поиске ресурсов с теми же языком и региональными параметрами, что и нейтральные по языку ресурсы, ResourceManager автоматически использует ресурсы, расположенные в основной сборке, и не ищет вспомогательную сборку с текущими языком и региональными параметрами интерфейса пользователя для текущего потока. Это улучшает поиск первого загруженного ресурса и может уменьшить рабочие наборы.</Description>
+   <Resolution Name="Default">Так как сборка {0} содержит файл ResX-ресурса, пометьте его атрибутом NeutralResourcesLanguage, указав язык ресурсов внутри сборки. Это может ускорить поиск ресурса при первом извлечении.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Не ликвидировать объекты несколько раз" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Не ликвидировать объекты несколько раз</Name>
+   <Description>Правильно реализованный метод Dispose может вызываться неоднократно без создания исключения. Однако такой гарантии нет, и чтобы предотвратить создание System.ObjectDisposedException, не следует вызывать метод Dispose для объекта более одного раза.</Description>
+   <Resolution Name="Default">Объект "{0}" можно удалять более одного раза в методе {1}. Чтобы избежать исключения System.ObjectDisposedException, следует вызывать метод "Dispose" для объекта только один раз.: Lines: 63, 67, 80, 84</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Не передавать литералы в качестве локализованных параметров</Name>
+   <Description>Строки литералов, внедренные в исходный код, сложно локализировать. Избегайте передачи строк типа литерал в качестве аргументов в случаях, когда ожидается локализованная строка.</Description>
+   <Resolution Name="KnownValue">Метод {0} передает строку-литерал, как параметр "{1}" при вызове {2}. Вместо этого выполните поиск следующей строки (строк) в таблице источника: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>

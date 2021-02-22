@@ -1,0 +1,63 @@
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe.config
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.pdb
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Microsoft.Maps.MapControl.WPF.dll
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.dll
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Maps.dll
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Platform.dll
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.dll
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Microsoft.Maps.MapControl.WPF.xml
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.pdb
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.xml
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Maps.xml
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.pdb
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.xml
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.csprojResolveAssemblyReference.cache
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\MainWindow.g.cs
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\App.g.cs
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS_MarkupCompile.cache
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS_MarkupCompile.lref
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\MainWindow.baml
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.g.resources
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.Properties.Resources.resources
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.csproj.GenerateResource.Cache
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.exe
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.pdb
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\AddObject.g.cs
+D:\BYSEC RVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\AddObject.baml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe.config
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.exe
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.pdb
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.pdb
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Microsoft.Maps.MapControl.WPF.dll
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.dll
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Maps.dll
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Platform.dll
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.dll
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Microsoft.Maps.MapControl.WPF.xml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.pdb
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Core.xml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Maps.xml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.pdb
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\Xamarin.Forms.Xaml.xml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.csprojResolveAssemblyReference.cache
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\AddObject.g.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\MainWindow.g.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\App.g.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS_MarkupCompile.cache
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS_MarkupCompile.lref
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\AddObject.baml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\MainWindow.baml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.g.resources
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.Properties.Resources.resources
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.csproj.GenerateResource.Cache
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\MainWindow.xaml.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe.CodeAnalysisLog.xml
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\BYSEC_RVS.exe.lastcodeanalysissucceeded
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.myObject.resources
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\ConnectRadar.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\bin\x86\Release\ConnectRadar.Designer.cs
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.Radars.resources
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.Logining.resources
+D:\BYSECRVS\BYSEC_RVS\BYSEC_RVS\obj\x86\Release\BYSEC_RVS.ConnectRadar.resources
